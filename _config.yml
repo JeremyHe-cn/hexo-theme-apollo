@@ -1,21 +1,23 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    About: /about.html
+    GitHub: https://github.com/jeremyhe-cn
     Rss: /atom.xml
 
 favicon: /favicon.png
 logo: /favicon.png
+logotext: <font color=gray size="7">{</font><font size=7> AL </font><font color=gray size=7>}</font>
 
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo: 
+duoshuo: j-cn
+
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: 
 
 # Copyright Infomation
 startyear: 2015
