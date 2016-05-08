@@ -32,7 +32,7 @@
         margin: 1em 0;
         &:before {
             content: "#";
-            color: #42b983;
+            color: #2B4180;
             position: absolute;
             left: -0.7em;
             top: -4px;
@@ -117,8 +117,8 @@
 code,
 pre {
     font-size: 0.8em;
-    background-color: #f8f8f8;
-    font-family: 'Roboto Mono', Monaco, courier, monospace;
+    background-color: #f5f5f5;
+    font-family:  monospace, monospace, 'Roboto Mono', Monaco, courier, monospace;
 }
 
 .highlight {
@@ -133,6 +133,8 @@ pre {
         border-collapse: collapse;
         padding: 0;
         margin: 0;
+        border-radius: 3px;
+        border: 1px solid #ccc;
     }
     .gutter {
         display: none;
@@ -161,6 +163,7 @@ pre {
     @each $key in $keys {
         .highlight.#{$key} .code:after {
             content: to-upper-case($key);
+            color: #2B4180;
             @extend %code-base;
         }
     }

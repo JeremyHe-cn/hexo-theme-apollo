@@ -5,9 +5,9 @@ menu:
     GitHub: https://github.com/jeremyhe-cn
     Rss: /atom.xml
 
-favicon: /favicon.png
-logo: /favicon.png
-logotext: <font color=gray size="7">{</font><font size=7> AL </font><font color=gray size=7>}</font>
+favicon: /favicon.ico
+logo: /favicon.ico
+logotext: <font face="Purisa Bold;Ubuntu Mono Bold" color=gray size="7">{</font><font face="Purisa Bold;Ubuntu Mono Bold" size=7> AL </font><font color=gray size=7 face="Purisa Bold;Ubuntu Mono Bold">}</font>
 
 # Comment
 # e.g disqus: seansun
