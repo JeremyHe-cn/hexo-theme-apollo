@@ -1,5 +1,5 @@
 menu:
-    Blog: /
+    Index: /
     Archive: /archives/
     About: /about.html
     GitHub: https://github.com/jeremyhe-cn
@@ -7,7 +7,8 @@ menu:
 
 favicon: /favicon.ico
 logo: /favicon.ico
-logotext: <font face="Purisa Bold;Ubuntu Mono Bold" color=gray size="7">{</font><font face="Purisa Bold;Ubuntu Mono Bold" size=7> AL </font><font color=gray size=7 face="Purisa Bold;Ubuntu Mono Bold">}</font>
+# Purisa, URW Chancery L  
+logotext: <font face="Purisa,URW Chancery L,Ubuntu" color=gray size="7">{</font><font face="Purisa,URW Chancery L,Ubuntu" size=7> AL </font><font color=gray size=7 face="Purisa,URW Chancery L,Ubuntu">}</font>
 
 # Comment
 # e.g disqus: seansun
