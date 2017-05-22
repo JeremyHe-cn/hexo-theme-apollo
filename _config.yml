@@ -12,8 +12,9 @@ logotext: <font face="Purisa,URW Chancery L,Ubuntu" color=gray size="7">{</font>
 
 # Comment
 # e.g disqus: seansun
-disqus: zlv
-
+disqus: 
+duoshuo:
+cloudTie: 1bc56f9599fa479a890196981ff9f0b4
 
 # Analytics
 # google-analytics:

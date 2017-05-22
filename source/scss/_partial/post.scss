@@ -30,7 +30,7 @@
     h2, h3, h4, h5, h6 {
         position: relative;
         margin: 1em 0;
-        &:before {
+        a:before {
             content: "#";
             color: #2B4180;
             position: absolute;
@@ -40,8 +40,8 @@
             font-weight: bold;
         }
     }
-    h3, h4, h5, h6 {
-        &:before {
+    h4, h5, h6 {
+        a:before {
             content: "";
         }
     }
@@ -144,6 +144,10 @@ pre {
         padding: 1.2em 1.4em;
         line-height: 1.5em;
         margin: 0;
+        .line {
+            width: auto;
+            height: 18px;
+        }
     }
 }
 
@@ -170,7 +174,7 @@ pre {
     }
 }
 
-$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp");
+$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts");
 @include code-signs($signs);
 
 .highlight.cpp .code:after {

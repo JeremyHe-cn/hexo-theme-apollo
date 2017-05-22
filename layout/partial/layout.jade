@@ -6,12 +6,9 @@ html(lang=config.language)
         .wrap
             header
                 a.logo-link(href=url_for())
-                    if theme.logotext
-                        !=theme.logotext
-                    else 
-                        img(src=theme.logo)
+                    img(src=url_for(theme.logo) alt="logo")
                 include nav
-            section.container
+            main.container
                 block container
             footer
                 block pagination
